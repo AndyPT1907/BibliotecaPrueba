@@ -1,0 +1,16 @@
+<div class="bg-image"></div> <!-- Imagen de fondo -->
+<div class="container">
+    <div class="welcome-content">
+        <h1>Catálogo de Libros</h1>
+        <div class="libros-container">
+            <div class="libro-card" *ngFor="let libro of libros">
+                <img [src]="libro.image" alt="{{ libro.title }}" class="libro-imagen" />
+                <h2>{{ libro.title }}</h2>
+                <h3>Autor: {{ libro.author }}</h3>
+                <p>{{ libro.description }}</p>
+                <button class="btn-primary" (click)="downloadPDF()">Descargar Libro</button>
+            </div>
+        </div>
+        
+    </div>
+</div>

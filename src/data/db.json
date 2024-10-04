@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$rXx5gLfEgPt5/jmnwv41WuDbPDRwiGqV.jpKIBG9mxtOZJNw1zdpC",
+      "role": "estudiante",
+      "id": 1
+    },
+    {
+      "email": "a2@gmail.com",
+      "password": "$2a$10$zkyjvsMOz7Vu6/GaZ/lwpOfiBN.YFhYMT/2aP2j7bXiifL.WtYrDe",
+      "role": "admin",
+      "id": 2
+    }
+  ],
+  
+    "libros": [
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "description": "Una novela distópica que explora los efectos del totalitarismo y la vigilancia.",
+            "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/ab/54/ab54a82815e061d7fc8f22bcd22f2605.jpg"
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "description": "Una historia sobre la injusticia racial en el sur de Estados Unidos.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg"
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "description": "Una crítica a la sociedad estadounidense durante la década de 1920.",
+            "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/43/b3/43b37a982ff4b3fdefeb3fa969de1149.jpg"
+        },
+        {
+            "title": "Moby Dick",
+            "author": "Herman Melville",
+            "description": "La obsesiva búsqueda de un capitán por un gran cetáceo blanco.",
+            "image": "https://www.mrbooks.com/mrbooks/portadas/9788483087565.webp"
+        },
+        {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "description": "Una novela sobre la lucha entre el amor y las expectativas sociales.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNQOqNz5BNMTGXMVS82T6p6M4KekaMLnicyw&s"
+        },
+        {
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "description": "La historia de un adolescente que lucha por encontrar su lugar en el mundo.",
+            "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/63/0f/630f05cd4596ad44a1ecd0bb261f6327.jpg"
+        },
+        {
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "description": "Una novela sobre una sociedad futurista basada en el consumismo y la tecnología.",
+            "image": "https://images.cdn3.buscalibre.com/fit-in/360x360/a9/5f/a95f66e0851fceae573cc3bbe12b930f.jpg"
+        },
+        {
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "description": "Una distopía en la que los libros están prohibidos y los 'bomberos' queman los que encuentran.",
+            "image": "https://www.planetadelibros.com.ec/usuaris/libros/fotos/322/m_libros/321432_portada_fahrenheit-451_ray-bradbury_201910221243.jpg"
+        },
+        {
+            "title": "The Picture of Dorian Gray",
+            "author": "Oscar Wilde",
+            "description": "La historia de un hombre que se mantiene joven mientras su retrato envejece.",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTY5ODc1NjU5N15BMl5BanBnXkFtZTcwMTUyNDg3Mg@@._V1_.jpg"
+        },
+        {
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "description": "La aventura de un hobbit que se embarca en un viaje inesperado.",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_FMjpg_UX1000_.jpg"
+        }
+    ]
+}

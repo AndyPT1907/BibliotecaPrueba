@@ -1,0 +1,113 @@
+/* welcome.component.css */
+.bg-image {
+    background-image: url('https://www.telemundo.com/sites/nbcutelemundo/files/images/article/cover/2018/12/17/jovenes-en-biblioteca.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: fixed; /* Mantiene la imagen fija */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+    top: 0; /* Fija la imagen en la parte superior */
+    left: 0; /* Fija la imagen en la parte izquierda */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+}
+  
+.container {
+    position: relative; /* Permite que el contenido esté por encima de la imagen */
+    z-index: 1; /* Coloca el contenedor por encima de la imagen */
+    padding: 100px 20px; /* Espacio superior para evitar superposición con la imagen */
+}
+
+.welcome-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    max-width: 1200px; /* Aumenta el ancho máximo */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 3rem; /* Aumenta el tamaño del título */
+    text-align: center; /* Centra el texto */
+    font-weight: bold; /* Añade un poco de grosor al texto */
+}
+  
+.lead {
+    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+    margin-bottom: 30px;
+    text-align: center; /* Centra el texto */
+}
+  
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    font-size: 1.2rem; /* Aumenta el tamaño del texto del botón */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Añade transición suave */
+    display: block; /* Asegura que el botón ocupe todo el ancho */
+    margin: 20px auto; /* Centra el botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efecto de aumento al pasar el cursor */
+}
+
+/* Estilos específicos para el catálogo de libros */
+.libros-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: space-between; /* Espaciado uniforme entre libros */
+    max-width: 1000px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.libro-card {
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Bordes más redondeados */
+    padding: 20px; /* Aumenta el padding */
+    margin: 15px; /* Añade margen */
+    width: calc(30% - 30px); /* Cambia el ancho a aproximadamente un tercio */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra más sutil */
+    transition: transform 0.3s ease; /* Transición suave al aumentar */
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido esté en una columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.libro-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+}
+
+.libro-imagen {
+    width: 150px; /* Ancho fijo para todas las imágenes */
+    height: 225px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Asegura que las imágenes mantengan la proporción sin distorsión */
+    border-radius: 10px; /* Bordes redondeados en la imagen */
+    display: block; /* Asegura que la imagen se comporte como bloque */
+    margin-bottom: 15px; /* Añade espacio entre la imagen y el texto */
+}
+
+/* Estilos para el texto dentro de la tarjeta */
+.libro-card h2 {
+    font-size: 1.5rem; /* Aumenta el tamaño del título del libro */
+    margin: 10px 0; /* Espacio arriba y abajo del título */
+    text-align: center; /* Centra el título */
+}
+
+.libro-card h3 {
+    font-size: 1.2rem; /* Aumenta el tamaño del autor */
+    color: #666; /* Color más claro para el autor */
+    margin: 5px 0; /* Espacio entre el autor y la descripción */
+}
+
+.libro-card p {
+    font-size: 1rem; /* Tamaño de texto de la descripción */
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+    margin-top: 10px; /* Espacio arriba de la descripción */
+}
